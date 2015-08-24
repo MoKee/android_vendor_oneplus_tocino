@@ -222,6 +222,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/vendor/lib64/egl/libq3dtools_esx.so:/system/vendor/lib64/egl/libq3dtools_esx.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/egl/libQTapGLES.so:/system/vendor/lib64/egl/libQTapGLES.so \
         vendor/oneplus/tocino/proprietary/bin/fm_qsoc_patches:/system/bin/fm_qsoc_patches \
+        vendor/oneplus/tocino/proprietary/vendor/bin/audioflacapp:/system/vendor/bin/audioflacapp \
         vendor/oneplus/tocino/proprietary/vendor/lib/libacdb-fts.so:/system/vendor/lib/libacdb-fts.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libacdbloader.so:/system/vendor/lib/libacdbloader.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libacdbmapper.so:/system/vendor/lib/libacdbmapper.so \
@@ -241,6 +242,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libaudcal.so:/system/vendor/lib64/libaudcal.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libaudioalsa.so:/system/vendor/lib64/libaudioalsa.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libhwdaphal.so:/system/vendor/lib64/libhwdaphal.so \
+        vendor/oneplus/tocino/proprietary/vendor/lib/libqct_resampler.so:/system/vendor/lib/libqct_resampler.so \
         vendor/oneplus/tocino/proprietary/bin/mm-qcamera-app:/system/bin/mm-qcamera-app \
         vendor/oneplus/tocino/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/oneplus/tocino/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:/system/etc/firmware/cpp_firmware_v1_1_1.fw \
