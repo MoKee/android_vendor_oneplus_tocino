@@ -495,3 +495,4 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/vendor/lib/libNimsWrap.so:/system/vendor/lib/libNimsWrap.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libvendorconn.so:/system/vendor/lib/libvendorconn.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libwqe.so:/system/vendor/lib/libwqe.so \
+        vendor/oneplus/tocino/proprietary/etc/usb_drivers.iso:/system/etc/usb_drivers.iso \
