@@ -16,6 +16,25 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
+    com.qualcomm.location
+
+PRODUCT_PACKAGES += \
+    qcrilmsgtunnel \
+    shutdownlistener \
+    TimeService
+
+PRODUCT_PACKAGES += \
+    qcnvitems \
+    qcrilhook
+
+PRODUCT_PACKAGES += \
+    libmm-abl
+
+PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api
+
+PRODUCT_PACKAGES += \
     libtime_genoff
 
 $(call inherit-product, vendor/oneplus/tocino/tocino-vendor-blobs.mk)
