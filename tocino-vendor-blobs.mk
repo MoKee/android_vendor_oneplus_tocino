@@ -438,10 +438,13 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/oneplus/tocino/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/oneplus/tocino/proprietary/bin/radish:/system/bin/radish \
+        vendor/oneplus/tocino/proprietary/bin/rild:/system/bin/rild \
         vendor/oneplus/tocino/proprietary/bin/rfs_access:/system/bin/rfs_access \
         vendor/oneplus/tocino/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/oneplus/tocino/proprietary/etc/permissions/qcnvitems.xml:/system/etc/permissions/qcnvitems.xml \
         vendor/oneplus/tocino/proprietary/etc/permissions/qcrilhook.xml:/system/etc/permissions/qcrilhook.xml \
+        vendor/oneplus/tocino/proprietary/lib/libril.so:/system/lib/libril.so \
+        vendor/oneplus/tocino/proprietary/lib64/libril.so:/system/lib64/libril.so \
         vendor/oneplus/tocino/proprietary/lib64/librmnetctl.so:/system/lib64/librmnetctl.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libmdmdetect.so:/system/vendor/lib64/libmdmdetect.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libnetmgr.so:/system/vendor/lib64/libnetmgr.so \
@@ -454,7 +457,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/etc/firmware/tp/14049/14049_FW_S1302.img:/system/etc/firmware/tp/14049/14049_FW_S1302.img \
         vendor/oneplus/tocino/proprietary/etc/firmware/tp/14049/14049_FW_S3320_jdi.img:/system/etc/firmware/tp/14049/14049_FW_S3320_jdi.img \
         vendor/oneplus/tocino/proprietary/lib/hw/wbc_hal.default.so:/system/lib/hw/wbc_hal.default.so \
-        vendor/oneplus/tocino/proprietary/lib64/hw/sensors.hal.tof.so:/system/lib64/hw/sensors.hal.tof.so \
         vendor/oneplus/tocino/proprietary/lib64/hw/wbc_hal.default.so:/system/lib64/hw/wbc_hal.default.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/hw/sensors.msm8994.so:/system/vendor/lib/hw/sensors.msm8994.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/hw/sensors.msm8994.so:/system/vendor/lib64/hw/sensors.msm8994.so \
