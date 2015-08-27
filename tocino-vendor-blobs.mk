@@ -404,6 +404,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
         vendor/oneplus/tocino/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
         vendor/oneplus/tocino/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+        vendor/oneplus/tocino/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
@@ -414,6 +415,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
+        vendor/oneplus/tocino/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
