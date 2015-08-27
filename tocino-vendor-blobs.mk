@@ -427,7 +427,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/lib/libril.so:system/lib/libril.so \
         vendor/oneplus/tocino/proprietary/lib64/libril.so:system/lib64/libril.so \
         vendor/oneplus/tocino/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
