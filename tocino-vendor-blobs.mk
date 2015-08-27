@@ -39,11 +39,8 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/lib/libparam.so:system/lib/libparam.so \
         vendor/oneplus/tocino/proprietary/lib64/libparam.so:system/lib64/libparam.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
@@ -55,17 +52,13 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
@@ -77,11 +70,8 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
@@ -93,17 +83,13 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
@@ -399,28 +385,15 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-        vendor/oneplus/tocino/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
         vendor/oneplus/tocino/proprietary/bin/location-mq:system/bin/location-mq \
         vendor/oneplus/tocino/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-        vendor/oneplus/tocino/proprietary/bin/lowi-server:system/bin/lowi-server \
         vendor/oneplus/tocino/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
         vendor/oneplus/tocino/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-        vendor/oneplus/tocino/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-        vendor/oneplus/tocino/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-        vendor/oneplus/tocino/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-        vendor/oneplus/tocino/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-        vendor/oneplus/tocino/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-        vendor/oneplus/tocino/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-        vendor/oneplus/tocino/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-        vendor/oneplus/tocino/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib64/libloc_xtra.so:system/vendor/lib64/libloc_xtra.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
@@ -428,18 +401,17 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
+        vendor/oneplus/tocino/proprietary/bin/lowi-server:system/bin/lowi-server \
         vendor/oneplus/tocino/proprietary/bin/quipc_main:system/bin/quipc_main \
         vendor/oneplus/tocino/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
         vendor/oneplus/tocino/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
