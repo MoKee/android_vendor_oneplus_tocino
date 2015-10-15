@@ -401,8 +401,13 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
         vendor/oneplus/tocino/proprietary/bin/location-mq:system/bin/location-mq \
         vendor/oneplus/tocino/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+        vendor/oneplus/tocino/proprietary/bin/lowi-server:system/bin/lowi-server \
         vendor/oneplus/tocino/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
+        vendor/oneplus/tocino/proprietary/bin/quipc_main:system/bin/quipc_main \
+        vendor/oneplus/tocino/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+        vendor/oneplus/tocino/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
         vendor/oneplus/tocino/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+        vendor/oneplus/tocino/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
         vendor/oneplus/tocino/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
@@ -427,11 +432,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
-        vendor/oneplus/tocino/proprietary/bin/lowi-server:system/bin/lowi-server \
-        vendor/oneplus/tocino/proprietary/bin/quipc_main:system/bin/quipc_main \
-        vendor/oneplus/tocino/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-        vendor/oneplus/tocino/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-        vendor/oneplus/tocino/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
         vendor/oneplus/tocino/proprietary/bin/netmgrd:system/bin/netmgrd \
         vendor/oneplus/tocino/proprietary/bin/qmuxd:system/bin/qmuxd \
         vendor/oneplus/tocino/proprietary/bin/radish:system/bin/radish \
@@ -509,23 +509,11 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
-        vendor/oneplus/tocino/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
-        vendor/oneplus/tocino/proprietary/etc/fpc1021w160.bin:system/etc/fpc1021w160.bin \
         vendor/oneplus/tocino/proprietary/etc/firmware/fingerprints.b00:system/etc/firmware/fingerprints.b00 \
         vendor/oneplus/tocino/proprietary/etc/firmware/fingerprints.b03:system/etc/firmware/fingerprints.b03 \
         vendor/oneplus/tocino/proprietary/etc/firmware/fingerprints.b02:system/etc/firmware/fingerprints.b02 \
         vendor/oneplus/tocino/proprietary/etc/firmware/fingerprints.b01:system/etc/firmware/fingerprints.b01 \
         vendor/oneplus/tocino/proprietary/etc/firmware/fingerprints.mdt:system/etc/firmware/fingerprints.mdt \
-        vendor/oneplus/tocino/proprietary/etc/firmware/fingerprintsecurity.b00:system/etc/firmware/fingerprintsecurity.b00 \
-        vendor/oneplus/tocino/proprietary/etc/firmware/fingerprintsecurity.b01:system/etc/firmware/fingerprintsecurity.b01 \
-        vendor/oneplus/tocino/proprietary/etc/firmware/fingerprintsecurity.b02:system/etc/firmware/fingerprintsecurity.b02 \
-        vendor/oneplus/tocino/proprietary/etc/firmware/fingerprintsecurity.b03:system/etc/firmware/fingerprintsecurity.b03 \
-        vendor/oneplus/tocino/proprietary/etc/firmware/fingerprintsecurity.mdt:system/etc/firmware/fingerprintsecurity.mdt \
-        vendor/oneplus/tocino/proprietary/lib/hw/fingerprint.msm8994.so:system/lib/hw/fingerprint.msm8994.so \
-        vendor/oneplus/tocino/proprietary/lib64/libqseecom_fingerprints_client.so:system/lib64/libqseecom_fingerprints_client.so \
-        vendor/oneplus/tocino/proprietary/lib/libqseecom_fingerprints_client.so:system/lib/libqseecom_fingerprints_client.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib64/libqfp-service.so:system/vendor/lib64/libqfp-service.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/libfpcalgorithm.so:system/vendor/lib/libfpcalgorithm.so \
         vendor/oneplus/tocino/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
         vendor/oneplus/tocino/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
