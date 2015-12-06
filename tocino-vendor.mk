@@ -35,6 +35,13 @@ PRODUCT_PACKAGES += \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
-    libtime_genoff
+    libtime_genoff \
+    libdiag \
+    libdsutils \
+    libmdmdetect \
+    libqcci_legacy \
+    libqmi \
+    libqmi_client_qmux \
+    libqmiservices
 
 $(call inherit-product, vendor/oneplus/tocino/tocino-vendor-blobs.mk)
