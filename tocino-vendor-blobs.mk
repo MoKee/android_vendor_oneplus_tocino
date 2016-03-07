@@ -233,20 +233,19 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
         vendor/oneplus/tocino/proprietary/bin/qseecomd:system/bin/qseecomd \
+        vendor/oneplus/tocino/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+        vendor/oneplus/tocino/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+        vendor/oneplus/tocino/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+        vendor/oneplus/tocino/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
         vendor/oneplus/tocino/proprietary/bin/loc_launcher:system/bin/loc_launcher \
         vendor/oneplus/tocino/proprietary/bin/lowi-server:system/bin/lowi-server \
