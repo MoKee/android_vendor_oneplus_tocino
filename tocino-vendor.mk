@@ -21,9 +21,6 @@ PRODUCT_PACKAGES += \
     dpmapi
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location
-
-PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener \
     TimeService
@@ -51,8 +48,5 @@ PRODUCT_PACKAGES += \
     libqmi_cci \
     libqmi_client_qmux \
     libqmiservices
-
-PRODUCT_PACKAGES += \
-    keystore.msm8994
 
 $(call inherit-product, vendor/oneplus/tocino/tocino-vendor-blobs.mk)
