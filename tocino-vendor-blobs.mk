@@ -226,15 +226,21 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/bin/dpmd:/system/bin/dpmd \
         vendor/oneplus/tocino/proprietary/etc/dpm/dpm.conf:/system/etc/dpm/dpm.conf \
         vendor/oneplus/tocino/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:/system/etc/dpm/nsrm/NsrmConfiguration.xml \
+        vendor/oneplus/tocino/proprietary/etc/permissions/com.qti.dpmframework.xml:/system/etc/permissions/com.qti.dpmframework.xml \
         vendor/oneplus/tocino/proprietary/etc/permissions/dpmapi.xml:/system/etc/permissions/dpmapi.xml \
+        vendor/oneplus/tocino/proprietary/framework/com.qti.dpmframework.jar:/system/framework/com.qti.dpmframework.jar \
+        vendor/oneplus/tocino/proprietary/framework/dpmapi.jar:/system/framework/dpmapi.jar \
+        vendor/oneplus/tocino/proprietary/framework/tcmclient.jar:/system/framework/tcmclient.jar \
         vendor/oneplus/tocino/proprietary/vendor/lib/libdpmctmgr.so:/system/vendor/lib/libdpmctmgr.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libdpmfdmgr.so:/system/vendor/lib/libdpmfdmgr.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libdpmframework.so:/system/vendor/lib/libdpmframework.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libdpmnsrm.so:/system/vendor/lib/libdpmnsrm.so \
+        vendor/oneplus/tocino/proprietary/vendor/lib/libdpmtcm.so:/system/vendor/lib/libdpmtcm.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libdpmctmgr.so:/system/vendor/lib64/libdpmctmgr.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libdpmfdmgr.so:/system/vendor/lib64/libdpmfdmgr.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libdpmframework.so:/system/vendor/lib64/libdpmframework.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libdpmnsrm.so:/system/vendor/lib64/libdpmnsrm.so \
+        vendor/oneplus/tocino/proprietary/vendor/lib64/libdpmtcm.so:/system/vendor/lib64/libdpmtcm.so \
         vendor/oneplus/tocino/proprietary/bin/qseecomd:/system/bin/qseecomd \
         vendor/oneplus/tocino/proprietary/vendor/lib/hw/gatekeeper.msm8994.so:/system/vendor/lib/hw/gatekeeper.msm8994.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/hw/keystore.msm8994.so:/system/vendor/lib/hw/keystore.msm8994.so \
