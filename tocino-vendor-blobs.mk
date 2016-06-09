@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:/system/etc/firmware/rampatch_tlv_3.2.tlv \
         vendor/oneplus/tocino/proprietary/vendor/lib/libbtnv.so:/system/vendor/lib/libbtnv.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libbtnv.so:/system/vendor/lib64/libbtnv.so \
-        vendor/oneplus/tocino/proprietary/bin/laser_init:/system/bin/laser_init \
         vendor/oneplus/tocino/proprietary/bin/mm-qcamera-app:/system/bin/mm-qcamera-app \
         vendor/oneplus/tocino/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/oneplus/tocino/proprietary/lib/hw/camera.msm8994.so:/system/lib/hw/camera.msm8994.so \
@@ -61,7 +60,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/lib/libmorpho_video_refiner.so:/system/lib/libmorpho_video_refiner.so \
         vendor/oneplus/tocino/proprietary/lib/libopcamerahw_interface.so:/system/lib/libopcamerahw_interface.so \
         vendor/oneplus/tocino/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
-        vendor/oneplus/tocino/proprietary/lib64/hw/sensors.hal.tof.so:/system/lib64/hw/sensors.hal.tof.so \
         vendor/oneplus/tocino/proprietary/lib64/libopcamera.so:/system/lib64/libopcamera.so \
         vendor/oneplus/tocino/proprietary/lib64/libopcameralib.so:/system/lib64/libopcameralib.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
@@ -226,21 +224,15 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/bin/dpmd:/system/bin/dpmd \
         vendor/oneplus/tocino/proprietary/etc/dpm/dpm.conf:/system/etc/dpm/dpm.conf \
         vendor/oneplus/tocino/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:/system/etc/dpm/nsrm/NsrmConfiguration.xml \
-        vendor/oneplus/tocino/proprietary/etc/permissions/com.qti.dpmframework.xml:/system/etc/permissions/com.qti.dpmframework.xml \
         vendor/oneplus/tocino/proprietary/etc/permissions/dpmapi.xml:/system/etc/permissions/dpmapi.xml \
-        vendor/oneplus/tocino/proprietary/framework/com.qti.dpmframework.jar:/system/framework/com.qti.dpmframework.jar \
-        vendor/oneplus/tocino/proprietary/framework/dpmapi.jar:/system/framework/dpmapi.jar \
-        vendor/oneplus/tocino/proprietary/framework/tcmclient.jar:/system/framework/tcmclient.jar \
         vendor/oneplus/tocino/proprietary/vendor/lib/libdpmctmgr.so:/system/vendor/lib/libdpmctmgr.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libdpmfdmgr.so:/system/vendor/lib/libdpmfdmgr.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libdpmframework.so:/system/vendor/lib/libdpmframework.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/libdpmnsrm.so:/system/vendor/lib/libdpmnsrm.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib/libdpmtcm.so:/system/vendor/lib/libdpmtcm.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libdpmctmgr.so:/system/vendor/lib64/libdpmctmgr.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libdpmfdmgr.so:/system/vendor/lib64/libdpmfdmgr.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libdpmframework.so:/system/vendor/lib64/libdpmframework.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libdpmnsrm.so:/system/vendor/lib64/libdpmnsrm.so \
-        vendor/oneplus/tocino/proprietary/vendor/lib64/libdpmtcm.so:/system/vendor/lib64/libdpmtcm.so \
         vendor/oneplus/tocino/proprietary/bin/qseecomd:/system/bin/qseecomd \
         vendor/oneplus/tocino/proprietary/vendor/lib/hw/gatekeeper.msm8994.so:/system/vendor/lib/hw/gatekeeper.msm8994.so \
         vendor/oneplus/tocino/proprietary/vendor/lib/hw/keystore.msm8994.so:/system/vendor/lib/hw/keystore.msm8994.so \
