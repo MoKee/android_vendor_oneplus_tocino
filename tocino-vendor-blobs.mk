@@ -392,10 +392,13 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/tocino/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/oneplus/tocino/proprietary/etc/permissions/qcnvitems.xml:/system/etc/permissions/qcnvitems.xml \
         vendor/oneplus/tocino/proprietary/etc/permissions/qcrilhook.xml:/system/etc/permissions/qcrilhook.xml \
+        vendor/oneplus/tocino/proprietary/framework/qti-telephony-common.jar:/system/framework/qti-telephony-common.jar \
+        vendor/oneplus/tocino/proprietary/framework/QtiTelephonyServicelibrary.jar:/system/framework/QtiTelephonyServicelibrary.jar \
         vendor/oneplus/tocino/proprietary/lib64/libparam.so:/system/lib64/libparam.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libconfigdb.so:/system/vendor/lib64/libconfigdb.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/liblqe.so:/system/vendor/lib64/liblqe.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libnetmgr.so:/system/vendor/lib64/libnetmgr.so \
+        vendor/oneplus/tocino/proprietary/vendor/lib64/librcc.so:/system/vendor/lib64/librcc.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libril-qc-qmi-1.so:/system/vendor/lib64/libril-qc-qmi-1.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libril-qc-radioconfig.so:/system/vendor/lib64/libril-qc-radioconfig.so \
         vendor/oneplus/tocino/proprietary/vendor/lib64/libril-qcril-hook-oem.so:/system/vendor/lib64/libril-qcril-hook-oem.so \
