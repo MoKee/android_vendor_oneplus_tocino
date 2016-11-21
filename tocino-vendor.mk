@@ -31,7 +31,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/tocino/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/oneplus/tocino/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/oneplus/tocino/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/oneplus/tocino/proprietary/bin/mm-qcamera-daemon-op:system/bin/mm-qcamera-daemon-op \
+    vendor/oneplus/tocino/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
+    vendor/oneplus/tocino/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/oneplus/tocino/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/oneplus/tocino/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/oneplus/tocino/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -115,9 +116,19 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/tocino/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/oneplus/tocino/proprietary/lib64/hw/fingerprint.msm8994.so:system/lib64/hw/fingerprint.msm8994.so \
     vendor/oneplus/tocino/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+    vendor/oneplus/tocino/proprietary/lib64/libopcameralib.so:system/lib64/libopcameralib.so \
+    vendor/oneplus/tocino/proprietary/lib64/libopcamera.so:system/lib64/libopcamera.so \
     vendor/oneplus/tocino/proprietary/lib64/libparam.so:system/lib64/libparam.so \
+    vendor/oneplus/tocino/proprietary/lib/hw/camera.vendor.msm8994.so:system/lib/hw/camera.vendor.msm8994.so \
     vendor/oneplus/tocino/proprietary/lib/hw/fingerprint.msm8994.so:system/lib/hw/fingerprint.msm8994.so \
+    vendor/oneplus/tocino/proprietary/lib/libFNVfbEngineLib.so:system/lib/libFNVfbEngineLib.so \
     vendor/oneplus/tocino/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
+    vendor/oneplus/tocino/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/oneplus/tocino/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/oneplus/tocino/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/oneplus/tocino/proprietary/lib/libmorpho_video_refiner.so:system/lib/libmorpho_video_refiner.so \
+    vendor/oneplus/tocino/proprietary/lib/libopcamerahw_interface.so:system/lib/libopcamerahw_interface.so \
+    vendor/oneplus/tocino/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/oneplus/tocino/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oneplus/tocino/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/oneplus/tocino/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
@@ -434,10 +445,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/tocino/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/oneplus/tocino/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/oneplus/tocino/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+    vendor/oneplus/tocino/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/oneplus/tocino/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/oneplus/tocino/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/oneplus/tocino/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/oneplus/tocino/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/oneplus/tocino/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/oneplus/tocino/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/oneplus/tocino/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/oneplus/tocino/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/oneplus/tocino/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
